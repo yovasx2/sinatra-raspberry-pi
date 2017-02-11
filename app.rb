@@ -5,9 +5,12 @@ require 'pi_piper'
 
 include PiPiper
 
+pins = [5, 6, 13, 19]
+
 helpers do
-  def send_pulse(pin)
-    pin = PiPiper::Pin.new(:pin => pin, :direction => :out)
+  def send_pulse(option)
+    gpio = pins[option-1]
+    pin = PiPiper::Pin.new(:pin => gipio, :direction => :out)
     pin.on
     sleep 1
     pin.off
