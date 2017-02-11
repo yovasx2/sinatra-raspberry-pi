@@ -17,7 +17,7 @@
 <a name="description"/>
 ## Description
 
-A small web interface to send pulses as output from a raspberry pi
+A small web interface to send pulses from a raspberry pi
 
 * [Sinatra](https://sinatrarb.com)
 
@@ -45,7 +45,7 @@ In order to execute this project you need to install:
 
 2. Move into it and install dependencies
 
-    $ cd sinatra-raspberry && bundle install
+    $ cd sinatra-raspberry-pi && bundle install
 
 3. Execute server
 
