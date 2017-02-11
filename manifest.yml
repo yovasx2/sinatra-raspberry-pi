@@ -1,0 +1,7 @@
+---
+applications:
+- name: semaphore web interface for raspberry pi control
+  memory: 128M
+  instances: 1
+  url: bootstrap.${target-base}
+  path: .
