@@ -1,6 +1,11 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    eventmachine (1.0.9)
+    ffi (1.9.17)
+    pi_piper (2.0.0)
+      eventmachine (= 1.0.9)
+      ffi
     rack (1.6.5)
     rack-protection (1.5.3)
       rack
@@ -16,6 +21,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  pi_piper
   sinatra
   sinatra-param
 
