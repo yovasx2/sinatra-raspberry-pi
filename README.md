@@ -41,7 +41,7 @@ In order to execute this project you need to install:
 
 1. Clone the repo
 
-      $ git clone https://github.com/yovasx2/sinatra-rapsberry-pi
+      $ git clone https://github.com/yovasx2/sinatra-raspberry-pi
 
 2. Move into it and install dependencies
 
@@ -57,15 +57,15 @@ In order to execute this project you need to install:
 
 You can contribute to this project in many forms:
 
-* [Reporting bugs](https://github.com/yovasx2/sinatra-rapsberry-pi/issues)
+* [Reporting bugs](https://github.com/yovasx2/sinatra-raspberry-pi/issues)
 
-* [Writing issues](https://github.com/yovasx2/sinatra-rapsberry-pi/issues)
+* [Writing issues](https://github.com/yovasx2/sinatra-raspberry-pi/issues)
 
 
 <a name="author"/>
 ## Author
 
-1. Giovanni Alberto García 
+1. Giovanni Alberto García
 
     * <a href="mailto:delirable@gmail.com">
     delirable@gmail.com</a>
