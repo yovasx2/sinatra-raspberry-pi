@@ -5,6 +5,9 @@ require 'pi_piper'
 
 include PiPiper
 
+set :dump_errors, false
+set :environment, :production
+
 PIN2  = PiPiper::Pin.new(:pin => 2, :direction => :out)
 PIN3  = PiPiper::Pin.new(:pin => 3, :direction => :out)
 PIN4  = PiPiper::Pin.new(:pin => 4, :direction => :out)
