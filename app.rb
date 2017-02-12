@@ -5,12 +5,15 @@ require 'pi_piper'
 
 include PiPiper
 
-pins = [5, 6, 13, 19]
+PIN2  = PiPiper::Pin.new(:pin => 2, :direction => :out)
+PIN3  = PiPiper::Pin.new(:pin => 3, :direction => :out)
+PIN4  = PiPiper::Pin.new(:pin => 4, :direction => :out)
+PIN17 = PiPiper::Pin.new(:pin => 17, :direction => :out)
+PINS  = [ PIN2, PIN3, PIN4, PIN17]
 
 helpers do
   def send_pulse(option)
-    gpio = pins[option-1]
-    pin = PiPiper::Pin.new(:pin => gipio, :direction => :out)
+    pin = PINS[option.to_i - 1]
     pin.on
     sleep 1
     pin.off
