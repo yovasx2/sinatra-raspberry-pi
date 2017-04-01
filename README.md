@@ -15,6 +15,7 @@
 * [License](#license)
 
 <a name="description"/>
+
 ## Description
 
 A small web interface to send pulses from a raspberry pi
@@ -28,6 +29,7 @@ This project was created in order to produce the input for a pic controller and
 manipulate a sequence of a semaphore, converting it in a IoT device
 
 <a name="requirements"/>
+
 ## Requirements
 
 In order to execute this project you need to install:
@@ -37,6 +39,7 @@ In order to execute this project you need to install:
   You can check this with `ruby -v`
 
 <a name="run-project"/>
+
 ## Run project
 
 1. Clone the repo
@@ -53,6 +56,7 @@ In order to execute this project you need to install:
 
 
 <a name="contribute"/>
+
 ## Contribute
 
 You can contribute to this project in many forms:
@@ -63,6 +67,7 @@ You can contribute to this project in many forms:
 
 
 <a name="author"/>
+
 ## Author
 
 1. Giovanni Alberto García
@@ -73,6 +78,7 @@ You can contribute to this project in many forms:
     * [github.com/yovasx2](http://github.com/yovasx2)
 
 <a name="license"/>
+
 ## License
 
 [MIT License](http://choosealicense.com/licenses/mit/)
